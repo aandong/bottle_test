@@ -1,0 +1,43 @@
+2026-06-29 16:55:35  INFO  ========================================================================
+2026-06-29 16:55:35  INFO  dataset   : /home/aandong/projectYOLO/bottle_test/dataset/Botol Plastik Kelas 0-4.v1i.yolo26
+2026-06-29 16:55:35  INFO  data.yaml : /home/aandong/projectYOLO/bottle_test/dataset/Botol Plastik Kelas 0-4.v1i.yolo26/data.yaml
+2026-06-29 16:55:35  INFO  run dir   : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol Plastik Kelas 0-4.v1i.yolo26
+2026-06-29 16:55:35  INFO  log file  : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol Plastik Kelas 0-4.v1i.yolo26/train-20260629-165535.log
+2026-06-29 16:55:35  INFO  GPU       : NVIDIA GeForce RTX 4070 Ti SUPER
+2026-06-29 16:55:35  INFO  epochs=100  patience=20  imgsz=640  batch=0.7  cache=disk  workers=6
+2026-06-29 16:55:35  INFO  ========================================================================
+2026-06-29 16:55:35  INFO  resuming interrupted run from /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol Plastik Kelas 0-4.v1i.yolo26/weights/last.pt
+2026-06-29 16:57:31  INFO  epoch   2/100  mAP50=0.7630  mAP50-95=0.7316  P=0.6591  R=0.7946
+2026-06-29 16:57:37  INFO  epoch   3/100  mAP50=0.7756  mAP50-95=0.6982  P=0.6976  R=0.9530
+2026-06-29 16:57:42  INFO  epoch   4/100  mAP50=0.9950  mAP50-95=0.9154  P=0.9503  R=0.9299
+2026-06-29 16:57:48  INFO  epoch   5/100  mAP50=0.9950  mAP50-95=0.9099  P=0.9268  R=0.9180
+2026-06-29 16:57:54  INFO  epoch   6/100  mAP50=0.9950  mAP50-95=0.9412  P=0.8586  R=0.9452
+2026-06-29 16:58:00  INFO  epoch   7/100  mAP50=0.9950  mAP50-95=0.9418  P=0.9691  R=0.9586
+2026-06-29 16:58:05  INFO  epoch   8/100  mAP50=0.9950  mAP50-95=0.9465  P=0.9645  R=0.9744
+2026-06-29 16:58:11  INFO  epoch   9/100  mAP50=0.9915  mAP50-95=0.9619  P=0.8376  R=0.9845
+2026-06-29 16:58:17  INFO  epoch  10/100  mAP50=0.9950  mAP50-95=0.9568  P=0.9485  R=0.9875
+2026-06-29 16:58:23  INFO  epoch  11/100  mAP50=0.9950  mAP50-95=0.9350  P=0.9463  R=0.9680
+2026-06-29 16:58:28  INFO  epoch  12/100  mAP50=0.9950  mAP50-95=0.9127  P=0.9526  R=0.9555
+2026-06-29 16:58:34  INFO  epoch  13/100  mAP50=0.9950  mAP50-95=0.9305  P=0.9585  R=0.9904
+2026-06-29 16:58:40  INFO  epoch  14/100  mAP50=0.9950  mAP50-95=0.9360  P=0.9769  R=0.9834
+2026-06-29 16:58:45  INFO  epoch  15/100  mAP50=0.9950  mAP50-95=0.9134  P=0.9844  R=1.0000
+2026-06-29 16:58:51  INFO  epoch  16/100  mAP50=0.9950  mAP50-95=0.9370  P=0.9408  R=1.0000
+2026-06-29 16:58:57  INFO  epoch  17/100  mAP50=0.9904  mAP50-95=0.9395  P=0.9563  R=0.9386
+2026-06-29 16:59:02  INFO  epoch  18/100  mAP50=0.9950  mAP50-95=0.9482  P=0.9621  R=0.9601
+2026-06-29 16:59:08  INFO  epoch  19/100  mAP50=0.9950  mAP50-95=0.9293  P=0.9679  R=0.9470
+2026-06-29 16:59:14  INFO  epoch  20/100  mAP50=0.9950  mAP50-95=0.9327  P=0.9708  R=0.9795
+2026-06-29 16:59:19  INFO  epoch  21/100  mAP50=0.9950  mAP50-95=0.9397  P=0.9730  R=0.9796
+2026-06-29 16:59:25  INFO  epoch  22/100  mAP50=0.9950  mAP50-95=0.9575  P=0.9552  R=1.0000
+2026-06-29 16:59:31  INFO  epoch  23/100  mAP50=0.9950  mAP50-95=0.9457  P=0.9570  R=0.9878
+2026-06-29 16:59:36  INFO  epoch  24/100  mAP50=0.9950  mAP50-95=0.9096  P=0.9781  R=0.9772
+2026-06-29 16:59:42  INFO  epoch  25/100  mAP50=0.9950  mAP50-95=0.9452  P=0.9806  R=0.9771
+2026-06-29 16:59:48  INFO  epoch  26/100  mAP50=0.9950  mAP50-95=0.9459  P=0.9744  R=1.0000
+2026-06-29 16:59:54  INFO  epoch  27/100  mAP50=0.9950  mAP50-95=0.9523  P=0.9768  R=0.9721
+2026-06-29 16:59:59  INFO  epoch  28/100  mAP50=0.9950  mAP50-95=0.9407  P=0.9807  R=0.9070
+2026-06-29 17:00:05  INFO  epoch  29/100  mAP50=0.9950  mAP50-95=0.9559  P=0.9625  R=0.9788
+2026-06-29 17:00:05  INFO  early stopping triggered at epoch 29 (best epoch 9)
+2026-06-29 17:00:08  INFO  epoch  30/100  mAP50=0.9915  mAP50-95=0.9619  P=0.8373  R=0.9846
+2026-06-29 17:00:08  INFO  early stopping triggered at epoch 30 (best epoch 9)
+2026-06-29 17:00:08  INFO  training finished -- best weights: /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol Plastik Kelas 0-4.v1i.yolo26/weights/best.pt
+2026-06-29 17:00:09  INFO  training complete -- running final validation on the test split
+2026-06-29 17:00:09  INFO  ========================================================================

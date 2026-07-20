@@ -1,0 +1,33 @@
+2026-05-21 07:24:07  INFO  ========================================================================
+2026-05-21 07:24:07  INFO  dataset   : /home/aandong/projectYOLO/bottle_test/dataset/Botol-Plastik-Kelas-15---16--1
+2026-05-21 07:24:07  INFO  data.yaml : /home/aandong/projectYOLO/bottle_test/dataset/Botol-Plastik-Kelas-15---16--1/data.yaml
+2026-05-21 07:24:07  INFO  run dir   : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol-Plastik-Kelas-15---16--1
+2026-05-21 07:24:07  INFO  log file  : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol-Plastik-Kelas-15---16--1/train-20260521-072407.log
+2026-05-21 07:24:07  INFO  GPU       : NVIDIA GeForce RTX 4070 Ti SUPER
+2026-05-21 07:24:07  INFO  epochs=100  patience=20  imgsz=640  batch=0.7  cache=disk  workers=6
+2026-05-21 07:24:07  INFO  ========================================================================
+2026-05-21 07:24:07  INFO  starting fresh from /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol-Plastik-Kelas-10---14-1/weights/best.pt
+2026-05-21 07:24:07  ERROR  training stopped with an error: [Errno 2] No such file or directory: '/home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol-Plastik-Kelas-10---14-1/weights/best.pt'
+Traceback (most recent call last):
+  File "/home/aandong/projectYOLO/bottle_test/train_yolo26.py", line 156, in main
+    model = YOLO(BASE_MODEL)
+  File "/home/aandong/yy26/lib/python3.10/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/aandong/yy26/lib/python3.10/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/aandong/yy26/lib/python3.10/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+  File "/home/aandong/yy26/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 1515, in load_checkpoint
+    ckpt, weight = torch_safe_load(weight)  # load ckpt
+  File "/home/aandong/yy26/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 1463, in torch_safe_load
+    ckpt = torch_load(file, map_location="cpu")
+  File "/home/aandong/yy26/lib/python3.10/site-packages/ultralytics/utils/patches.py", line 178, in torch_load
+    return torch.load(*args, **kwargs)
+  File "/home/aandong/yy26/lib/python3.10/site-packages/torch/serialization.py", line 1500, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "/home/aandong/yy26/lib/python3.10/site-packages/torch/serialization.py", line 768, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/aandong/yy26/lib/python3.10/site-packages/torch/serialization.py", line 749, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol-Plastik-Kelas-10---14-1/weights/best.pt'
+2026-05-21 07:24:07  INFO  re-run the SAME command to auto-resume from last.pt

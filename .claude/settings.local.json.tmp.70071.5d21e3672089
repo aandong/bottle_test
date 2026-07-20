@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file:*)",
+      "Bash(rtk:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(python3 -m json.tool)",
+      "Bash(gh repo *)",
+      "Bash(claude plugin *)",
+      "Bash(git rev-list *)",
+      "Bash(git cat-file *)",
+      "Bash(awk '/^blob/ {print $3, $4}')",
+      "Bash(git ls-remote *)",
+      "Bash(git ls-tree *)",
+      "Bash(awk '{print $4, $5}')",
+      "Bash(sort -k2 -rn)",
+      "Bash(git fetch *)",
+      "Bash(git check-ignore *)",
+      "Bash(grep -E '\\\\.\\(mp4|avi\\)$')",
+      "Bash(git rm *)",
+      "Bash(git commit *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git branch *)"
+    ]
+  }
+}

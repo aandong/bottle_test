@@ -1,0 +1,19 @@
+2026-07-01 12:54:10  INFO  ========================================================================
+2026-07-01 12:54:10  INFO  dataset   : /home/aandong/projectYOLO/bottle_test/dataset/merged
+2026-07-01 12:54:10  INFO  data.yaml : /home/aandong/projectYOLO/bottle_test/dataset/merged/data.yaml
+2026-07-01 12:54:10  INFO  run dir   : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-merged
+2026-07-01 12:54:10  INFO  log file  : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-merged/train-20260701-125410.log
+2026-07-01 12:54:10  INFO  GPU       : NVIDIA GeForce RTX 4070 Ti SUPER
+2026-07-01 12:54:10  INFO  epochs=100  patience=20  imgsz=640  batch=0.7  cache=disk  workers=6
+2026-07-01 12:54:10  INFO  ========================================================================
+2026-07-01 12:54:10  INFO  starting fresh from /home/aandong/projectYOLO/yolo26n.pt
+2026-07-01 12:59:11  INFO  epoch   1/100  mAP50=0.1045  mAP50-95=0.0922  P=0.6026  R=0.0982
+2026-07-01 13:01:16  INFO  epoch   2/100  mAP50=0.4696  mAP50-95=0.4207  P=0.4644  R=0.4752
+2026-07-01 13:07:49  INFO  epoch   3/100  mAP50=0.8310  mAP50-95=0.7417  P=0.6468  R=0.7417
+2026-07-01 13:08:06  INFO  epoch   4/100  mAP50=0.9322  mAP50-95=0.8432  P=0.7096  R=0.9233
+2026-07-01 13:08:21  INFO  epoch   5/100  mAP50=0.9427  mAP50-95=0.8623  P=0.7955  R=0.8724
+2026-07-01 13:08:39  INFO  epoch   6/100  mAP50=0.9483  mAP50-95=0.8572  P=0.8282  R=0.9087
+2026-07-01 13:08:55  INFO  epoch   7/100  mAP50=0.9708  mAP50-95=0.8786  P=0.8665  R=0.9141
+2026-07-01 13:09:18  INFO  epoch   8/100  mAP50=0.9662  mAP50-95=0.8873  P=0.8959  R=0.8776
+2026-07-01 13:09:36  INFO  epoch   9/100  mAP50=0.9764  mAP50-95=0.9018  P=0.9184  R=0.8950
+2026-07-01 13:09:53  INFO  epoch  10/100  mAP50=0.9911  mAP50-95=0.8971  P=0.8886  R=0.9716

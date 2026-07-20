@@ -1,0 +1,10 @@
+2026-06-29 16:37:36  INFO  ========================================================================
+2026-06-29 16:37:36  INFO  dataset   : /home/aandong/projectYOLO/bottle_test/dataset/Botol Plastik Kelas 0-4.v1i.yolo26
+2026-06-29 16:37:36  INFO  data.yaml : /home/aandong/projectYOLO/bottle_test/dataset/Botol Plastik Kelas 0-4.v1i.yolo26/data.yaml
+2026-06-29 16:37:36  INFO  run dir   : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol Plastik Kelas 0-4.v1i.yolo26
+2026-06-29 16:37:36  INFO  log file  : /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol Plastik Kelas 0-4.v1i.yolo26/train-20260629-163736.log
+2026-06-29 16:37:36  INFO  GPU       : NVIDIA GeForce RTX 4070 Ti SUPER
+2026-06-29 16:37:36  INFO  epochs=100  patience=20  imgsz=640  batch=0.7  cache=disk  workers=6
+2026-06-29 16:37:36  INFO  ========================================================================
+2026-06-29 16:37:36  INFO  starting fresh from /home/aandong/projectYOLO/bottle_test/runs/detect/yolo26s-Botol-Plastik-Kelas-17---22--1/weights/last.pt
+2026-06-29 16:40:20  INFO  epoch   1/100  mAP50=0.5088  mAP50-95=0.4819  P=0.3726  R=0.6812
